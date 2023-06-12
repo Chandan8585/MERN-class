@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    background-color: black;
+    padding: 20px;
+}
+
+label{
+    color: white;
+}
+
+.albumExample{
+    text-align: center;
+    padding: 20px;
+}
+.card{
+    width: 30%;
+    display: inline-block;
+}
+.row{
+  display: inline-block;
+}
+
+footer{
+    background-color: lightgray;
+  padding: 20px;
+}
+
+
+ul{
+    display: inline;
+    color: white;
+    float: right;
+}
+li{
+    display: inline-block;
+    color: white;
+    text-align: center;
+}
