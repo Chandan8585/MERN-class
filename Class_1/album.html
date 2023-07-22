@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/album.css">
+</head>
+<body>
+    <nav class="logo">
+        <i class="fa-solid fa-bars"></i>
+      <label for="">Album</label>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+    <main>
+        <section class="albumExample">
+         <form>
+            <label for="">Enter Image Url</label>
+            <input id="imageId"  type="text"></input>
+            <label for="">Enter Description</label>
+            <input id="descriptionId"  type="text"></input>
+
+            <button class="btn-primary">Submit</button>
+         </form>
+        </section>
+        <section class="thumbnails">
+             <div class="row">
+                <div class="card">
+                <img src="https://images.unsplash.com/photo-1661956602944-249bcd04b63f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxzZWFyY2h8MXx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="image">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quis, dicta inventore commodi recusandae magnam fuga esse cupiditate nihil.
+                     Molestiae veritatis esse, voluptas possimus labore
+                     explicabo iure officia minima architecto, odit ducimus dolor consequuntur.
+               </p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1661956602944-249bcd04b63f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxzZWFyY2h8MXx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="image">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quis, dicta inventore commodi recusandae magnam fuga esse cupiditate nihil.
+                     Molestiae veritatis esse, voluptas possimus labore
+                     explicabo iure officia minima architecto, odit ducimus dolor consequuntur.
+               </p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1661956602944-249bcd04b63f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxzZWFyY2h8MXx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="image">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quis, dicta inventore commodi recusandae magnam fuga esse cupiditate nihil.
+                     Molestiae veritatis esse, voluptas possimus labore
+                     explicabo iure officia minima architecto, odit ducimus dolor consequuntur.
+               </p>
+            </div>
+             </div>
+       
+   
+        </section>
+        <footer>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non ipsa dolorem est qui dolores voluptates 
+                animi assumenda delectus eveniet perspiciatis, labore 
+                eaque sequi aliquam voluptatibus excepturi, minus laboriosam aperiam suscipit aspernatur maiores, consequatur facere.
+            </p>
+        </footer>
+        <script src="album.js" ></script>
+    </main>
+</body>
+<script>
+    var image = document.getElementById("imageId");
+    var description = document.getElementById("descriptionId");
+    console.log(image);
+</script>
+</html>
